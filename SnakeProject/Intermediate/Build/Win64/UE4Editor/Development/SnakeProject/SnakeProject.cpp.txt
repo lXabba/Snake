@@ -1,0 +1,2 @@
+D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\Definitions.SnakeProject.h
+D:\GameProjects\UE\Snake\SnakeProject\Source\SnakeProject\SnakeProject.h

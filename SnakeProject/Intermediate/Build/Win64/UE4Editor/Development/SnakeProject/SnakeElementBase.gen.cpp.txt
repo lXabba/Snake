@@ -1,0 +1,5 @@
+D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\Definitions.SnakeProject.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\GameProjects\UE\Snake\SnakeProject\Source\SnakeProject/SnakeElementBase.h
+D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Inc\SnakeProject\SnakeElementBase.generated.h
