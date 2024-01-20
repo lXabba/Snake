@@ -8,6 +8,15 @@
 
 class ASnakeElementBase;
 
+UENUM()
+enum class EMovementDirection
+{
+	UP,
+	DOWN,
+	LEFT,
+	RIGHT
+};
+
 UCLASS()
 class SNAKEPROJECT_API ASnake : public AActor
 {
@@ -23,9 +32,14 @@ public:
 	UPROPERTY(EditDefaultsOnly)
 	float ElementSize;
 
+	UPROPERTY(EditDefaultsOnly)
+	float MovementSpeed;
 
 	UPROPERTY()
-	TArray<ASnakeElementBase> SnakeElements;
+	TArray<ASnakeElementBase*> SnakeElements;
+
+	UPROPERTY()
+	EMovementDirection LastMoveDirection;
 
 protected:
 	// Called when the game starts or when spawned
@@ -35,6 +49,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	void AddSnakeElement();
+	void AddSnakeElement(int ElementsNum = 1);
+
+	void Move();
 
 };

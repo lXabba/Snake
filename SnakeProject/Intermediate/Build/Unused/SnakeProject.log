@@ -1,27 +1,12 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\GameProjects\UE\Snake).
-  Parsing headers for SnakeProjectEditor
-    Running UnrealHeaderTool "D:\GameProjects\UE\Snake\SnakeProject\SnakeProject.uproject" "D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\SnakeProjectEditor\Development\SnakeProjectEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\lll33\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for SnakeProjectEditor in 3,3230095 seconds
-  Deleted hot-reload file: D:\GameProjects\UE\Snake\SnakeProject\Binaries\Win64\UE4Editor-SnakeProject-3272.dll
-  Deleted hot-reload file: D:\GameProjects\UE\Snake\SnakeProject\Binaries\Win64\UE4Editor-SnakeProject-3272.pdb
-  Deleted hot-reload file: D:\GameProjects\UE\Snake\SnakeProject\Binaries\Win64\UE4Editor-SnakeProject-5602.dll
-  Deleted hot-reload file: D:\GameProjects\UE\Snake\SnakeProject\Binaries\Win64\UE4Editor-SnakeProject-5602.pdb
-  Deleted hot-reload file: D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject-3272.lib
-  Deleted hot-reload file: D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject-5602.lib
   Building SnakeProjectEditor...
   Using Visual Studio 2019 14.29.30152 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 9 actions with 12 processes...
-    [1/9] SnakeProject.init.gen.cpp
-    [2/9] SnakeElementBase.cpp
-    [3/9] SnakeElementBase.gen.cpp
-    [4/9] Snake.gen.cpp
-    [5/9] Snake.cpp
-    [6/9] PlayerPawnBase.cpp
-    [7/9] UE4Editor-SnakeProject.lib
+  Building 4 actions with 12 processes...
+    [1/4] Snake.cpp
+    [2/4] UE4Editor-SnakeProject.lib
        Создается библиотека D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject.lib и объект D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject.exp
-    [8/9] UE4Editor-SnakeProject.dll
+    [3/4] UE4Editor-SnakeProject.dll
        Создается библиотека D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject.suppressed.lib и объект D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject.suppressed.exp
-    [9/9] SnakeProjectEditor.target
-  Total time in Parallel executor: 14,65 seconds
-  Total execution time: 18,53 seconds
+    [4/4] SnakeProjectEditor.target
+  Total time in Parallel executor: 1,68 seconds
+  Total execution time: 2,15 seconds

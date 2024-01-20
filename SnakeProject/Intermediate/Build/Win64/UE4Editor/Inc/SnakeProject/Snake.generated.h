@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SNAKEPROJECT_Snake_generated_h
 
-#define SnakeProject_Source_SnakeProject_Snake_h_14_SPARSE_DATA
-#define SnakeProject_Source_SnakeProject_Snake_h_14_RPC_WRAPPERS
-#define SnakeProject_Source_SnakeProject_Snake_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define SnakeProject_Source_SnakeProject_Snake_h_14_INCLASS_NO_PURE_DECLS \
+#define SnakeProject_Source_SnakeProject_Snake_h_23_SPARSE_DATA
+#define SnakeProject_Source_SnakeProject_Snake_h_23_RPC_WRAPPERS
+#define SnakeProject_Source_SnakeProject_Snake_h_23_RPC_WRAPPERS_NO_PURE_DECLS
+#define SnakeProject_Source_SnakeProject_Snake_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASnake(); \
 	friend struct Z_Construct_UClass_ASnake_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ASnake)
 
 
-#define SnakeProject_Source_SnakeProject_Snake_h_14_INCLASS \
+#define SnakeProject_Source_SnakeProject_Snake_h_23_INCLASS \
 private: \
 	static void StaticRegisterNativesASnake(); \
 	friend struct Z_Construct_UClass_ASnake_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ASnake)
 
 
-#define SnakeProject_Source_SnakeProject_Snake_h_14_STANDARD_CONSTRUCTORS \
+#define SnakeProject_Source_SnakeProject_Snake_h_23_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASnake(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASnake) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define SnakeProject_Source_SnakeProject_Snake_h_14_ENHANCED_CONSTRUCTORS \
+#define SnakeProject_Source_SnakeProject_Snake_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASnake(ASnake&&); \
@@ -58,28 +58,28 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASnake)
 
 
-#define SnakeProject_Source_SnakeProject_Snake_h_14_PRIVATE_PROPERTY_OFFSET
-#define SnakeProject_Source_SnakeProject_Snake_h_11_PROLOG
-#define SnakeProject_Source_SnakeProject_Snake_h_14_GENERATED_BODY_LEGACY \
+#define SnakeProject_Source_SnakeProject_Snake_h_23_PRIVATE_PROPERTY_OFFSET
+#define SnakeProject_Source_SnakeProject_Snake_h_20_PROLOG
+#define SnakeProject_Source_SnakeProject_Snake_h_23_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SnakeProject_Source_SnakeProject_Snake_h_14_PRIVATE_PROPERTY_OFFSET \
-	SnakeProject_Source_SnakeProject_Snake_h_14_SPARSE_DATA \
-	SnakeProject_Source_SnakeProject_Snake_h_14_RPC_WRAPPERS \
-	SnakeProject_Source_SnakeProject_Snake_h_14_INCLASS \
-	SnakeProject_Source_SnakeProject_Snake_h_14_STANDARD_CONSTRUCTORS \
+	SnakeProject_Source_SnakeProject_Snake_h_23_PRIVATE_PROPERTY_OFFSET \
+	SnakeProject_Source_SnakeProject_Snake_h_23_SPARSE_DATA \
+	SnakeProject_Source_SnakeProject_Snake_h_23_RPC_WRAPPERS \
+	SnakeProject_Source_SnakeProject_Snake_h_23_INCLASS \
+	SnakeProject_Source_SnakeProject_Snake_h_23_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define SnakeProject_Source_SnakeProject_Snake_h_14_GENERATED_BODY \
+#define SnakeProject_Source_SnakeProject_Snake_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	SnakeProject_Source_SnakeProject_Snake_h_14_PRIVATE_PROPERTY_OFFSET \
-	SnakeProject_Source_SnakeProject_Snake_h_14_SPARSE_DATA \
-	SnakeProject_Source_SnakeProject_Snake_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	SnakeProject_Source_SnakeProject_Snake_h_14_INCLASS_NO_PURE_DECLS \
-	SnakeProject_Source_SnakeProject_Snake_h_14_ENHANCED_CONSTRUCTORS \
+	SnakeProject_Source_SnakeProject_Snake_h_23_PRIVATE_PROPERTY_OFFSET \
+	SnakeProject_Source_SnakeProject_Snake_h_23_SPARSE_DATA \
+	SnakeProject_Source_SnakeProject_Snake_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	SnakeProject_Source_SnakeProject_Snake_h_23_INCLASS_NO_PURE_DECLS \
+	SnakeProject_Source_SnakeProject_Snake_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -89,5 +89,14 @@ template<> SNAKEPROJECT_API UClass* StaticClass<class ASnake>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID SnakeProject_Source_SnakeProject_Snake_h
 
+
+#define FOREACH_ENUM_EMOVEMENTDIRECTION(op) \
+	op(EMovementDirection::UP) \
+	op(EMovementDirection::DOWN) \
+	op(EMovementDirection::LEFT) \
+	op(EMovementDirection::RIGHT) 
+
+enum class EMovementDirection;
+template<> SNAKEPROJECT_API UEnum* StaticEnum<EMovementDirection>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

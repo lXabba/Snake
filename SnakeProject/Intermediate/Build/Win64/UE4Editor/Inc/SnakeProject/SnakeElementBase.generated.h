@@ -14,8 +14,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SNAKEPROJECT_SnakeElementBase_generated_h
 
 #define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_SPARSE_DATA
-#define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_RPC_WRAPPERS
-#define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_RPC_WRAPPERS \
+	virtual void SetFirstElementType_Implementation(); \
+ \
+	DECLARE_FUNCTION(execSetFirstElementType);
+
+
+#define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetFirstElementType);
+
+
+#define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_EVENT_PARMS
+#define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_CALLBACK_WRAPPERS
 #define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASnakeElementBase(); \
@@ -59,13 +70,17 @@ public: \
 
 
 #define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_PRIVATE_PROPERTY_OFFSET
-#define SnakeProject_Source_SnakeProject_SnakeElementBase_h_11_PROLOG
+#define SnakeProject_Source_SnakeProject_SnakeElementBase_h_11_PROLOG \
+	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_EVENT_PARMS
+
+
 #define SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_PRIVATE_PROPERTY_OFFSET \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_SPARSE_DATA \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_RPC_WRAPPERS \
+	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_CALLBACK_WRAPPERS \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_INCLASS \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_STANDARD_CONSTRUCTORS \
 public: \
@@ -78,6 +93,7 @@ public: \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_PRIVATE_PROPERTY_OFFSET \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_SPARSE_DATA \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_CALLBACK_WRAPPERS \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_INCLASS_NO_PURE_DECLS \
 	SnakeProject_Source_SnakeProject_SnakeElementBase_h_14_ENHANCED_CONSTRUCTORS \
 private: \
