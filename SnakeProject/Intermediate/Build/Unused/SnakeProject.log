@@ -1,12 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\GameProjects\UE\Snake).
   Building SnakeProjectEditor...
   Using Visual Studio 2019 14.29.30152 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 12 processes...
-    [1/4] Food.cpp
-    [2/4] UE4Editor-SnakeProject.lib
-       Создается библиотека D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject.lib и объект D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject.exp
-    [3/4] UE4Editor-SnakeProject.dll
-       Создается библиотека D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject.suppressed.lib и объект D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject.suppressed.exp
-    [4/4] SnakeProjectEditor.target
-  Total time in Parallel executor: 1,73 seconds
-  Total execution time: 2,33 seconds
+  Building 3 actions with 12 processes...
+    [1/3] UE4Editor-SnakeProject-0003.lib
+       Создается библиотека D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject-0003.lib и объект D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject-0003.exp
+    [2/3] UE4Editor-SnakeProject-0003.dll
+       Создается библиотека D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject-0003.suppressed.lib и объект D:\GameProjects\UE\Snake\SnakeProject\Intermediate\Build\Win64\UE4Editor\Development\SnakeProject\UE4Editor-SnakeProject-0003.suppressed.exp
+    [3/3] SnakeProjectEditor.target
+  Total time in Parallel executor: 1,58 seconds
+  Total execution time: 2,43 seconds
